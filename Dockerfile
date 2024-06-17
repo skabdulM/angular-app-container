@@ -15,7 +15,7 @@ RUN npm install
 
 # Copy the rest of the application code to the working directory
 COPY . .
-RUN git init 
+
 # Expose port 4200
 EXPOSE 4200
 
